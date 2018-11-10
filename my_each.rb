@@ -8,6 +8,7 @@ def my_each(collection)
  
   Yield
   collection[count]
-  
+  count += 1
+end
   end
 end
