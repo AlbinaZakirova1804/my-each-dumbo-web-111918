@@ -4,6 +4,6 @@ def my_each
   while count < collection.length-1
  
   Yield
-  puts collection[count]
+  collection[count]
   end
 end
