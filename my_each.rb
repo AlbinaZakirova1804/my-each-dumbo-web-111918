@@ -1,9 +1,9 @@
 def my_each
   collection = [1, 2, 3, 4]
-  count = 0
-  while count < collection.length-1
+  i = 0
+  while i < collection.length-1
     Yield
-    collection[count]
-    count += 1
+    collection[i]
+    i + = 1
   end
 end
