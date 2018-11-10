@@ -1,8 +1,9 @@
-def my_each 
-  collection = [1, 2, 3, 4]
+def my_each(collection)
+  #collection = [1, 2, 3, 4]
   count = 0
   if collection.length ==0
-    
+    "This block should not run!"
+  else
   while count < collection.length-1
  
   Yield
