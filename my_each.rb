@@ -5,5 +5,6 @@ def my_each
  
   Yield
   collection[count]
+  count + =1
   end
 end
